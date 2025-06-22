@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    &.center {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    &.page {
+        height: 100vh;
+        
+        @supports (height: 100dvh) {
+            height: 100dvh;
+        }
+    }
+    
+    &.colored {
+        background: var(--purple-1);
+        color: var(--white);
+        border-radius: 1rem;
+    }
+}

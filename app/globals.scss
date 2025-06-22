@@ -1,0 +1,11 @@
+@import '../styles/_card';
+@import '../styles/container';
+@import '../styles/_variables';
+
+body {
+    font-family: var(--font-lexend);
+    background: var(--purple-2);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
